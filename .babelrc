@@ -1,0 +1,18 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "modules": false
+            }
+        ]
+    ],
+    "comments": false,
+    "env": {
+        "test": {
+            "presets": [
+                ["@babel/preset-env", { 'target' : { "node": "current" }}]
+            ]
+        }
+    }
+}
