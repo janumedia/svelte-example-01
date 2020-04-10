@@ -11,7 +11,7 @@
     "env": {
         "test": {
             "presets": [
-                ["@babel/preset-env", { 'target' : { "node": "current" }}]
+                ["@babel/preset-env", { "target" : { "node": "current" }}]
             ]
         }
     }

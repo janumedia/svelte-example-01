@@ -1,6 +1,10 @@
 <script>
-	import Button from './components/Button.svelte'
+	import Button from './components/Button.svelte';
 	export let name;
+
+	const Hello = () => {
+		name = 'Button';
+	};
 </script>
 
 <style>
@@ -10,4 +14,4 @@
 </style>
 
 <h1>Hello {name}!</h1>
-<Button>Button</Button>
+<Button on:click={Hello}>Button</Button>
